@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Be Vietnam Pro,sans-serif;
+    transition: all .3s ease;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ececec;
+}
+#home {
+    width: 100%;
+    height: 800px;
+    background-image: url(./images/home-banner.jpg);
+}
+
+.nav {
+    padding-top: 2rem;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    /* background-color: black; */
+    margin-left: 2rem;
+}
+
+.nav-button {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.nav-button button {
+    background-color: #ececec;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    color: black;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .4s ease;
+}
+.nav-button button:hover{
+    background:none;
+    color: white;
+}
+.icons{
+    /* position: relative; */
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icons a{
+    color:#ececec ;
+}
+.fa-brands{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fa-brands {
+    transition: transform 0.3s ease;
+}
+
+.fa-brands:hover {
+    transform: translateX(10px); /* Adjust the value as needed */
+}
+.row1{
+    color: #0e2f2e;
+}
+.row1 p{
+    font-weight: 700;
+}
+.row1 button{
+    background-color: #0e2f2e;
+    border: 2px solid #0e2f2e;
+    border-radius: 5px;
+    color: #ececec;
+    cursor: pointer;
+    font-weight:600;
+    height: 45px;
+    width: 180px;
+    transition: all .4s ease;
+}
+.row1 button:hover{
+    background: none;
+    color: #0e2f2e;
+}
+.about-bottom{
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    margin: 40px 0;
+    color: #0e2f2e;
+    /* background-color: bisque; */
+}
+.about-lpe{
+    display: flex;
+    margin: 10px 0;
+}
+.about-lpe-pic{
+    align-items: center;
+    display: flex;
+}
+.about-lpe-info{
+    display: flex;
+    flex-flow: column;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.food-cards{
+    margin-top: 4rem;
+}
+.food-cards a{
+    text-decoration: none;
+}
+.card{
+    cursor: pointer;
+}
+.card .card-title:hover{
+    text-decoration: underline #0e2f2e ;
+
+}
+.events{
+    margin-top: 10rem;
+}
+.games{
+    margin-top: 10rem;
+    
+}
+.franchise{
+    margin-top: 7rem;
+}
+.franchise h1{
+    color: #0e2f2e;
+    border: solid 2px;
+    border-color: #0e2f2e;
+    text-align: center;
+    padding: 1rem ;
+    font-weight: 800;
+    border-left: none;
+    border-right: none;
+}
+.get-in-touch button{
+    background-color: #0e2f2e;
+    border: 2px solid #0e2f2e;
+    border-radius: 5px;
+    color: #ececec;
+    cursor: pointer;
+    font-weight:600;
+    height: 45px;
+    width: 220px;
+    transition: all .4s ease;
+
+}
+.get-in-touch button:hover{
+    background-color:#ececec;
+    color: #0e2f2e;
+}
+#contact a{
+    text-decoration: none;
+    color: #0e2f2e;
+}
+.contact-button button{
+    background-color: #0e2f2e;
+    border: 2px solid #0e2f2e;
+    border-radius: 5px;
+    color: #ececec;
+    cursor: pointer;
+    font-weight:600;
+    height: 45px;
+    width: 220px;
+    transition: all .4s ease;
+}
+.contact-button button:hover{
+    background-color:#ececec;
+    color: #0e2f2e;
+
+}
+#contact .contact-icons{
+    font-size: 1.5rem;
+}
+footer{
+    background-color: #0e2f2e;
+    width: 100%;
+    text-align: center;
+    color: #ececec;
+    padding-bottom: 1rem;
+}
+.footer-icons a{
+    color: #ececec;
+    font-size: 1.5rem;
+}
+
+.App {
+    align-items: center;
+    background: #ececec;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.accolades{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 15px 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 100%;
+}
+.navbar, .navbar .logo {
+    height: 100px;
+}
+.navbar a{
+        color: inherit;
+        text-decoration: none;
+}
+.navbar-right button{
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    transition: all .4s ease;
+    width: 190px;
+}
+.navbar-right-green button{
+    background-color: #0e2f2e;
+    border: 1px solid #0e2f2e;
+    color: #ececec;
+    font-weight: lighter;
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.accolade-bottom{
+    border-top: 1px solid #0e2f2e;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding-top: 25px;
+    margin-left: 1rem;
+}
+.accolade-nav-button{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-right: 1rem;
+
+}
+.accolade-nav-button button{
+    background-color:#0e2f2e;
+    border: solid 1px;
+    border-color: #0e2f2e;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    color:#ececec;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .4s ease;
+   
+
+}
+.accolade-nav-button button:hover{
+    background-color: #ececec;
+    color: #0e2f2e;
+}
+.accolade-nav-icons{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.accolade-nav-icons a{
+    color: #0e2f2e;
+
+}
+.zoom-container {
+    overflow: hidden;
+  }
+  
+  .zoom-img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .zoom-container:hover .zoom-img {
+    transform: scale(0.9);
+  }
+  
+  .zoom-container:not(:hover) .zoom-img {
+    transform: scale(1);
+  }
+.foodcard-img{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 9rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+.accolades__container {
+    -webkit-column-gap: 60px;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+}
+
+@media screen and (max-width: 1400px){
+.accolades__accolade img {
+    height: 220px;
+}
+}
+
+@media screen and (max-width: 1400px){
+    .foodcard-img{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+.foodcard-img img {
+    height: 170px;
+}
+}
+
+@media (max-width: 651){
+    .logo {
+        width: 200px;
+        height: auto;
+        /* background-color: black; */
+        margin-left: 1rem;
+    }
+
+    .nav-button {
+        width: 100px;
+        height: auto;
+        /* background-color: black; */
+        text-align: center;
+        margin-right: 0;
+    }
+
+
+}
+
+    
